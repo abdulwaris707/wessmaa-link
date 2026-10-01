@@ -67,7 +67,7 @@ body {
   height: 100%;
   display: block;
   object-fit: contain;
-  transform: scale(3.8);
+  transform: scale(3.2);
 }
 
 .brand-name {
@@ -275,7 +275,7 @@ h1 span {
   height: 100%;
   display: block;
   object-fit: contain;
-  transform: rotate(-8deg) scale(4.8);
+  transform: rotate(-8deg) scale(3.5);
 }
 
 .visual-caption {
