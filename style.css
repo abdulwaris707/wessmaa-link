@@ -54,22 +54,6 @@ body {
   text-decoration: none;
 }
 
-.brand-logo {
-  width: 76px;
-  height: 76px;
-  display: grid;
-  place-items: center;
-  overflow: visible;
-}
-
-.brand-logo img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: contain;
-  transform: scale(2.8);
-}
-
 .brand-name {
   font-size: 18px;
   font-weight: 900;
@@ -97,6 +81,19 @@ body {
 
 .hero-content {
   max-width: 650px;
+}
+
+.hero-logo {
+  width: min(92px, 100%);
+  margin: 0 0 24px;
+}
+
+.hero-logo img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .eyebrow,
@@ -260,24 +257,6 @@ h1 span {
   filter: drop-shadow(0 18px 20px rgba(240, 105, 13, 0.16));
 }
 
-.visual-logo {
-  width: 174px;
-  height: 174px;
-  display: grid;
-  place-items: center;
-  overflow: visible;
-  border-radius: 36px;
-  transform: rotate(8deg);
-}
-
-.visual-logo img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: contain;
-  transform: rotate(-8deg) scale(3.1);
-}
-
 .visual-caption {
   position: absolute;
   right: 3%;
@@ -317,11 +296,6 @@ h1 span {
     gap: 9px;
   }
 
-  .brand-logo {
-    width: 64px;
-    height: 64px;
-  }
-
   .brand-name {
     font-size: 14px;
     letter-spacing: 0.16em;
@@ -341,6 +315,11 @@ h1 span {
     text-align: center;
   }
 
+  .hero-logo {
+    width: 72px;
+    margin: 0 auto 20px;
+  }
+
   .hero-visual {
     height: 258px;
     order: -1;
@@ -357,12 +336,6 @@ h1 span {
     width: 192px;
     height: 192px;
     border-width: 26px;
-  }
-
-  .visual-logo {
-    width: 108px;
-    height: 108px;
-    border-radius: 25px;
   }
 
   .visual-caption {
