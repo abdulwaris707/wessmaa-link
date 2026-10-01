@@ -55,8 +55,8 @@ body {
 }
 
 .brand-logo {
-  width: 68px;
-  height: 68px;
+  width: 76px;
+  height: 76px;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -67,6 +67,7 @@ body {
   height: 100%;
   display: block;
   object-fit: contain;
+  transform: scale(3.8);
 }
 
 .brand-name {
@@ -266,8 +267,6 @@ h1 span {
   place-items: center;
   overflow: hidden;
   border-radius: 36px;
-  background: var(--navy);
-  box-shadow: 0 24px 50px rgba(11, 37, 76, 0.18);
   transform: rotate(8deg);
 }
 
@@ -276,7 +275,7 @@ h1 span {
   height: 100%;
   display: block;
   object-fit: contain;
-  transform: rotate(-8deg) scale(1.08);
+  transform: rotate(-8deg) scale(4.8);
 }
 
 .visual-caption {
@@ -319,8 +318,8 @@ h1 span {
   }
 
   .brand-logo {
-    width: 54px;
-    height: 54px;
+    width: 64px;
+    height: 64px;
   }
 
   .brand-name {
